@@ -24,13 +24,8 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deployment directory
-        run: |
-          mkdir publish
-          cp -r dist/* publish/
-
       - name: Deploy to github pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./publish
+          publish_dir: ./dist
