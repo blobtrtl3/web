@@ -7,11 +7,11 @@ export function Footer() {
             Copyright &copy; 2025 - Present Trlt3.
           </div>
           <div className="flex gap-6">
-            <a href="docs/" className="text-gray-900 hover:text-accent-500">
+            <a href="https://docs.trtl3/store" className="text-gray-900 hover:text-accent-500">
               Docs
             </a>
             <a
-              href="https://github.com/nothiaki/trtl3"
+              href="https://github.com/blobtrtl3/trtl3"
               target="_blank"
               className="text-gray-900 hover:text-accent-500"
             >
