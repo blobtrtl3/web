@@ -61,7 +61,7 @@ export default function Home() {
       <div className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-left mb-8">
-            <h2 className="text-xl md:text-4xl font-bold text-text">
+            <h2 className="text-xl md:text-4xl font-bold text-text-title">
               Why Choose <span className="text-primary">Trtl3</span>?
             </h2>
           </div>
