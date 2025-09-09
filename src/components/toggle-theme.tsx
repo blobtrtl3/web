@@ -12,7 +12,7 @@ export function ToggleTheme() {
   return (
     <button
       onClick={toggleTheme}
-      className="w-4 border-none hover:cursor-pointer"
+      className="w-4 border-none hover:cursor-pointer focus:outline-none"
     >
       {isDark ? (
         <Moon className="text-text" />
