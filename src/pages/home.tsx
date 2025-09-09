@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <div className="relative">
-        <div className="absolute right-4 top-4">
+      <div>
+        <div className="max-w-7xl mx-auto px-4 pt-8 flex justify-end sm:px-6 lg:px-8">
           <ToggleTheme />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
