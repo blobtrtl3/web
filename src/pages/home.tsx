@@ -22,14 +22,11 @@ export default function Home() {
             <img src="https://raw.githubusercontent.com/blobtrtl3/docs/841ed1ff604ac649f55e2ce19df6220258d94a1b/logo/logo.svg" alt="Trtl3's logo" className="h-48 md:h-full" />
             <div>
               <div className="flex items-end">
-                <h2 className="text-2xl md:text-4xl font-semibold text-text mb-6 mr-2">
-                  Meet...
-                </h2>
-                <h1 className="text-5xl md:text-6xl font-bold text-primary mb-6">
+                <h1 className="text-xl md:text-4xl font-bold text-primary mb-4">
                   Trtl3
                 </h1>
               </div>
-              <p className="text-l md:text-xl text-text mb-8">
+              <p className="text-base text-text mb-8">
                 Trtl3 is a local file storage service inspired by solutions
                 like Amazon S3, and other blob storage systems. Designed for
                 beginner developers who want to learn how object storage works
@@ -41,7 +38,7 @@ export default function Home() {
               <div className="flex gap-4 flex-col md:flex-row md:items-end">
                 <a
                   href="https://docs.trtl3.store"
-                  className="bg-primary text-background px-8 py-3 rounded-lg font-medium hover:bg-primary-hover transition-colors flex items-center gap-2 justify-center md:justify-start"
+                  className="bg-primary text-base text-background px-8 py-3 rounded-lg font-medium hover:bg-primary-hover transition-colors flex items-center gap-2 justify-center md:justify-start"
                 >
                   Docs
                   <ArrowRight size={20} />
@@ -64,7 +61,7 @@ export default function Home() {
       <div className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-left mb-8">
-            <h2 className="text-3xl font-bold text-text">
+            <h2 className="text-xl md:text-4xl font-bold text-text">
               Why Choose <span className="text-primary">Trtl3</span>?
             </h2>
           </div>

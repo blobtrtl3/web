@@ -12,7 +12,7 @@ export function Card({ icon, title, desc }: Props) {
     <div className="p-6 rounded-xl border border-text text-text">
       <IconBadge icon={icon} />
       <h3 className="text-xl font-semibold mb-2 mt-4">{title}</h3>
-      <p className="text-text">{desc}</p>
+      <p className="text-base text-text">{desc}</p>
     </div>
   );
 }
