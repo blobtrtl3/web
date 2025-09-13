@@ -23,17 +23,17 @@ export default function Home() {
             <div>
               <div className="flex items-end">
                 <h1 className="text-xl md:text-4xl font-bold text-primary mb-4">
-                  Trtl3
+                  TRTL3
                 </h1>
               </div>
               <p className="text-base text-text mb-8">
-                Trtl3 is a local file storage service inspired by solutions
+                TRTL3 is a local file storage service inspired by solutions
                 like Amazon S3, and other blob storage systems. Designed for
                 beginner developers who want to learn how object storage works
                 in practice — without the complexity of cloud services or
                 external dependencies. If you're building or experimenting with
                 file uploads, downloads, and basic file organization via HTTP —
-                Trtl3 is a great starting point!
+                TRTL3 is a great starting point!
               </p>
               <div className="flex gap-4 flex-col md:flex-row md:items-end">
                 <a
@@ -62,7 +62,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-left mb-8">
             <h2 className="text-xl md:text-4xl font-bold text-text-title">
-              Why Choose <span className="text-primary">Trtl3</span>?
+              Why Choose <span className="text-primary">TRTL3</span>?
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
