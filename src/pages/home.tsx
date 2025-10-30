@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import { Card } from '../components/card';
 import { Footer } from '../components/footer';
+
 export default function Home() {
   return (
     <div class="min-h-screen bg-background">

@@ -11,11 +11,12 @@
   --color-text: #181b18;
   --color-primary: #2f9e44;
   --color-primary-hover: #2b8a3e;
+  --color-disable: #4b5563;
 }
-
-.dark {
-  --color-background: #090d0d;
-  --color-text: #9fa3a0;
-  --color-primary: #2f9e44;
-  --color-primary-hover: #2b8a3e;
-}
+/**/
+/* .dark { */
+/*   --color-background: #090d0d; */
+/*   --color-text: #9fa3a0; */
+/*   --color-primary: #2f9e44; */
+/*   --color-primary-hover: #2b8a3e; */
+/* } */
