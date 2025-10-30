@@ -5,8 +5,8 @@ type Props = {
 };
 export function IconBadge({ icon: Icon }: Props) {
   return (
-    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-      <Icon class="text-background" size={24} />
+    <div class="w-10 h-10 flex items-center justify-center border-l-3 border-primary">
+      <Icon class="text-primary" size={24} />
     </div>
   );
 }
