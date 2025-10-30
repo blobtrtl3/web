@@ -9,10 +9,10 @@ type Props = {
 
 export function Card({ icon, title, desc }: Props) {
   return (
-    <div className="p-6 rounded-xl border border-text-title text-text">
+    <div class="p-6 rounded-xl border border-text-title text-text">
       <IconBadge icon={icon} />
-      <h3 className="text-text-title text-xl mb-2 mt-4">{title}</h3>
-      <p className="text-base text-text">{desc}</p>
+      <h3 class="text-text-title text-xl mb-2 mt-4">{title}</h3>
+      <p class="text-base text-text">{desc}</p>
     </div>
   );
 }
