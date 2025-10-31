@@ -12,12 +12,12 @@ export function ToggleTheme() {
   return (
     <button
       onClick={toggleTheme}
-      class="w-4 border-none hover:cursor-pointer focus:outline-none"
+      className="w-4 border-none hover:cursor-pointer focus:outline-none"
     >
       {isDark ? (
-        <Moon class="text-text" />
+        <Moon className="text-text" />
       ) : (
-        <Sun class="text-text" />
+        <Sun className="text-text" />
       )}
     </button>
   );
