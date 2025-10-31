@@ -32,7 +32,14 @@ export default function Home() {
                 >
                   Get started
                 </a>
-                <iframe src="https://ghbtns.com/github-btn.html?user=blobtrtl3&repo=trtl3&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+                <span className="mb-[4px]">
+                  <iframe
+                    src="https://ghbtns.com/github-btn.html?user=blobtrtl3&amp;repo=trtl3&amp;type=star&amp;count=true&amp;size=large"
+                    width={160}
+                    height={30}
+                    title="GitHub Stars"
+                  />
+                </span>
               </div>
             </div>
           </div>
