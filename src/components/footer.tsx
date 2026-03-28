@@ -1,14 +1,13 @@
 export function Footer() {
   return (
-
-    <footer className="py-16">
-      <div className="max-w-6xl mx-auto px-6 text-center">
-        <div className="flex justify-center flex-wrap gap-8 mb-6 text-text">
+    <footer className="py-12 mt-8 border-t border-gray-200">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="flex justify-center flex-wrap gap-8 mb-6">
           <a
             href="https://github.com/blobtrtl3/trtl3"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium hover:text-primary transition"
+            className="text-text text-sm font-medium hover:text-primary transition-colors"
           >
             GitHub
           </a>
@@ -16,20 +15,24 @@ export function Footer() {
             href="https://docs.trtl3.store"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium hover:text-primary transition"
+            className="text-text text-sm font-medium hover:text-primary transition-colors"
           >
-            Docs
+            Documentation
           </a>
           <a
             href="https://github.com/blobtrtl3/trtl3/blob/main/LICENSE"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium hover:text-primary transition"
+            className="text-text text-sm font-medium hover:text-primary transition-colors"
           >
             License
           </a>
         </div>
-          <p className="text-disable">Copyright &copy; 2025 - Present TRTL3.</p>
+        <p className="text-sm text-disable">
+          Copyright &copy; 2025 - Present TRTL3. Released under the AGPL-3.0
+          license.
+        </p>
       </div>
     </footer>
-)}
+  );
+}
