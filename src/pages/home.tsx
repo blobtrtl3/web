@@ -6,39 +6,35 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="py-20 lg:py-28">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col items-center lg:flex-row lg:items-center lg:justify-between gap-12 lg:gap-16">
-            <div className="flex-shrink-0">
+      <section className="py-24 lg:py-32">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col lg:flex-row lg:items-center gap-12 lg:gap-20">
+            <div className="flex-shrink-0 flex justify-center lg:justify-start">
               <img
                 src="https://raw.githubusercontent.com/blobtrtl3/docs/841ed1ff604ac649f55e2ce19df6220258d94a1b/logo/logo.svg"
                 alt="Trtl3 logo"
-                className="h-40 w-40 lg:h-84 lg:w-84"
+                className="h-48 w-48 lg:h-72 lg:w-72"
               />
             </div>
-            <div className="flex-1 max-w-2xl">
-              <h1 className="text-text text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6">
+            <div className="flex-1">
+              <h1 className="text-text text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">
                 Simple, fast, and{' '}
-                <span className="text-primary font-[Playfair_Display] italic">
-                  open-source
-                </span>{' '}
-                blob storage. Build and ship ideas{' '}
-                <span className="text-primary font-[Playfair_Display] italic">
-                  faster than ever!
-                </span>
+                <span className="text-primary">open-source</span> blob storage.
               </h1>
-              <p className="text-base text-disable leading-relaxed mb-8">
+              <p className="mt-4 text-text text-xl lg:text-2xl font-medium">
+                Build and ship ideas faster than ever.
+              </p>
+              <p className="mt-6 text-disable text-base lg:text-lg leading-relaxed max-w-xl">
                 A lightweight, self-hosted blob storage service — built for
                 developers who want to understand object storage without the
-                complexity of cloud platforms. Perfect for experimenting with
-                file uploads, downloads, and simple HTTP-based file management.
+                complexity of cloud platforms.
               </p>
-              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+              <div className="mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4">
                 <a
                   href="https://docs.trtl3.store"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center bg-primary text-background text-sm font-medium px-8 py-3 rounded-lg hover:bg-primary-hover transition-colors"
+                  className="inline-flex items-center justify-center bg-primary text-background font-medium px-6 py-3 rounded-lg hover:bg-primary-hover transition-colors"
                 >
                   Get started
                 </a>

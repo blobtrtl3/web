@@ -29,7 +29,7 @@ export function Footer() {
           </a>
         </div>
         <p className="text-sm text-disable">
-          Copyright &copy; 2025 - Present TRTL3. Released under the AGPL-3.0
+          Copyright &copy; 2025 - 2026 TRTL3. Released under the AGPL-3.0
           license.
         </p>
       </div>
